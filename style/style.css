@@ -42,6 +42,7 @@ body{
 .text-35{
     font-size: 35px;
 }
+
 .backgruond-red{
     background-color:#d90445;
 }
@@ -64,29 +65,35 @@ body{
 .margin-block{
     margin-top: 50px;
 }
-.menu{
-    height: 68px;
+.top-menu{
+    margin-top: 9px;
 }
+
 .slider{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: -26px;
+
 }
 .slider h1{
     position: absolute;
     top: 142px;
     z-index: 1;
 }
-.img-slider img{
+
+.people-slider{
     position: absolute;
-    top: 20px;
+    left: 0px;
+    bottom: 43px;
     z-index: 1;
 }
-.people-slide{
-    position: absolute;
-    left: 116px;
-    bottom: 43px;
+ .img-slide img{
+        position: absolute;
+        top:20px;
+        left: 455px;
+        z-index: 1;
 }
 .padding-slide{
     padding: 0px 0px 0px 0px;
@@ -141,10 +148,6 @@ body{
 .banner{
     position: relative;
 }
-.icon i{
-    height: 20px;
-    width: 20px;
-}
 .nature ul {
     list-style: none;
     margin-top: 13px;
@@ -184,18 +187,25 @@ body{
     .sigin img{
         width: 296px;
     }
+    .img-slide img{
+        display: none;
+    }
     .text-24 {
     font-size: 15px;
     }
     .margin-banner {
     margin: 20px 97px 6px 31px;
     }
-    .text-38 {
-    font-size: 30px;
+    .text-48 {
+    font-size: 16px;
     }
     .text-18 {
     font-size: 15px;
     }
+    .carousel-slide{
+        position: relative;
+    }
+
 
     .slider h1 {
     position: absolute;
@@ -204,5 +214,114 @@ body{
     }
     .text-35 {
     font-size: 20px;
+    }
+
+    .navbar-light .navbar-brand {
+        background-color: #1a54e7;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        bottom: 3px;
+        width: 84%;
+        right: 25px;
+        padding: 14px 3px 24px 65px;
+    }
+    .people-slider {
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    z-index: 1;
+    }
+
+}
+.navbar-light .navbar-brand{
+    background-color: #1a54e7;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 0px;
+    right: 25px;
+    padding-top: 14px;
+}
+@media only screen and (min-width:1210px) and (max-width:1440px) {
+    .slider h1{
+        text-align: center;
+    }
+
+
+}
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .slider h1 {
+    position: absolute;
+    top: 98px;
+    z-index: 1;
+    }
+    .text-24 {
+    font-size: 18px;
+    }
+    .margin-banner {
+    margin: 224px 1px 0px 0px;
+    }
+    .btn-sig {
+    position: absolute;
+    left: 378px;
+    bottom: 0px;
+    }
+    .img-slide img {
+    position: absolute;
+    top: 15px;
+    left: 311px;
+    z-index: 1;
+    }
+    .slider h1 {
+    position: absolute;
+    top: 128px;
+    z-index: 1;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:375px) {
+    .btn-sig {
+    position: absolute;
+    left: 217px;
+    bottom: 0px;
+    }
+    .text-24 {
+    font-size: 18px;
+    }
+    .margin-banner {
+    margin: 118px 18px 0px 0px;
+    }
+    .slider h1{
+    margin-top: -72px;
+    }
+    .text-48{
+        font-size:18px;
+    }
+    .img-slide img{
+        display: none;
+    }
+}
+@media only screen and (min-width:376px) and (max-width:425px) {
+    .btn-sig {
+    position: absolute;
+    left: 229px;
+    bottom: 0px;
+    }
+     .slider h1 {
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+    }
+    .text-48{
+        font-size: 18px;
+    }
+    .text-24{
+        font-size: 20px;
+    }
+    .margin-banner {
+    margin: 118px 18px 0px 0px;
+    }
+    .img-slide img{
+        display: none;
     }
 }
